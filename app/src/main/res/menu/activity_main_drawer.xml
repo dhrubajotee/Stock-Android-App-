@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_group"
+            android:title="Item Group Setup" />
+        <item
+            android:id="@+id/nav_info"
+            android:title="Item Information Setup" />
+
+
+        <item
+                android:id="@+id/nav_purchase"
+                android:title="Purchase Form" />
+
+        <item
+            android:id="@+id/nav_sell"
+            android:title="Sell Form" />
+
+
+        <item
+            android:id="@+id/nav_balance"
+            android:title="Item Balance" />
+
+
+        <item
+            android:id="@+id/nav_ledger"
+            android:title="Item Ledger" />
+
+        <item
+            android:id="@+id/nav_specificledger"
+            android:title="Specific Ledger" />
+
+
+    </group>
+
+</menu>

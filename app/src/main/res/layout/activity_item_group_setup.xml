@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper"
+    android:orientation="vertical"
+    tools:context="com.example.dhrubajotee.stock.ui.ItemGroupSetup">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="100dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Item Group"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="30dp" />
+
+
+
+    </LinearLayout>
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="0dp"
+             android:orientation="vertical">
+
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+                 <EditText
+                     android:layout_marginTop="40dp"
+                     android:layout_marginLeft="20dp"
+                     android:layout_width="300dp"
+
+                     android:layout_height="55dp"
+
+                     android:ellipsize="start"
+                     android:background="@drawable/edit_text_style"
+                     android:gravity="center"
+                     android:hint="Enter Group Name"
+
+                     android:id="@+id/editText"
+                     android:layout_alignParentTop="true"
+                     android:layout_alignParentRight="true"
+                     android:layout_alignParentEnd="true" />
+
+
+             </LinearLayout>
+
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content">
+
+                 <Button
+                     android:id="@+id/add"
+                     android:layout_width="300dp"
+                     android:layout_marginLeft="20dp"
+                     android:layout_height="50dp"
+
+                     android:layout_marginTop="30dp"
+                     android:background="@drawable/button"
+                     android:fontFamily="sans-serif-condensed"
+                     android:shadowColor="#A8A8A8"
+                     android:shadowDx="0"
+                     android:shadowDy="0"
+                     android:shadowRadius="5"
+                     android:text="Add Data"
+                     android:textColor="#FFFFFF"
+                     android:textSize="20dp"
+                     android:textStyle="bold" />
+
+             </LinearLayout>
+
+
+         </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="60dp"
+           >
+
+            <ListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/list">
+            </ListView>
+
+        </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

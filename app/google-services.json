@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "334066229855",
+    "firebase_url": "https://stock-62b98.firebaseio.com",
+    "project_id": "stock-62b98",
+    "storage_bucket": "stock-62b98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:334066229855:android:73ae9d095f807961",
+        "android_client_info": {
+          "package_name": "com.example.dhrubajotee.stock"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "334066229855-0diaf0vrscq8uk0anip4v2mkufuft93i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAivY5QMppA6vctQVW4jJXGzjc6YQPnmCU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

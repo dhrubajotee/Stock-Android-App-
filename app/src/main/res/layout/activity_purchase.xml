@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/paper"
+    tools:context="com.example.dhrubajotee.stock.classes.Purchase">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="100dp"
+            android:fontFamily="sans-serif-condensed"
+            android:text="Purchase Form"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:layout_marginTop="75dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/editId"
+            android:ellipsize="start"
+            android:background="@drawable/edit_text_style"
+            android:gravity="center"
+            android:layout_height="55dp"
+            android:hint="ID"/>
+
+        <EditText
+            android:layout_width="match_parent"
+
+            android:id="@+id/branchId"
+            android:ellipsize="start"
+            android:background="@drawable/edit_text_style"
+            android:gravity="center"
+            android:layout_marginTop="25dp"
+            android:layout_height="55dp"
+            android:hint="Branch ID"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:ellipsize="start"
+            android:background="@drawable/edit_text_style"
+            android:layout_marginTop="25dp"
+
+            android:gravity="center"
+            android:layout_height="55dp"
+            android:id="@+id/editQuantity"
+            android:hint="QUANTITY"/>
+
+        <Button
+            android:id="@+id/addPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="@drawable/button"
+            android:shadowColor="#A8A8A8"
+            android:shadowDx="0"
+            android:textColor="#FFFFFF"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:text="Buy"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</RelativeLayout>
